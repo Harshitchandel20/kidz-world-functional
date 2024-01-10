@@ -104,6 +104,8 @@ for (let i = 0; i < addButtons.length; i++) {
   }
   
   cartButton.onclick = () => {
+    console.clear()
+
     for (let element of items) {
       if (element.quantity !== 0) {
         console.log("Item name: " + element.name + " - Quantity: " + element.quantity);
