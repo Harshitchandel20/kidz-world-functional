@@ -1,1 +1,1 @@
-# kidz-world-static
+# kidz-world-functional
